@@ -262,3 +262,22 @@ input[type="checkbox"] {
 #accomodation a:hover {
     color: #000;
 }
+
+/* Style sur accomodation-container et les titres h2 et h4 */
+
+.accomodation-container {
+    background-color: #f2f2f2;
+    padding: 40px 30px;
+    border-radius: 15px;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+  
+  .accomodation-container h2, .accomodation-container h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
