@@ -23,7 +23,7 @@ a:hover {
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 figure {
@@ -83,4 +83,18 @@ header {
 .inscription a {
   color: #0065fc;
   font-weight: bold;
+}
+
+/* Style sur la section search */
+
+#section-search {
+  margin-top: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  margin-bottom: 5px;
 }
