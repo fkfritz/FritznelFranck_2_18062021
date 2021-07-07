@@ -22,6 +22,10 @@ a:hover {
   color: #0065fc;
 }
 
+ul {
+    list-style: none;
+}
+
 figure {
   margin: 0;
 }
