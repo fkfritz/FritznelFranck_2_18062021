@@ -249,3 +249,16 @@ input[type="checkbox"] {
     background: #fff;
     color: #0065fc;
 }
+
+/* Style sur la section hébergement avec id: accomodation */
+
+#accomodation {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;   
+}
+
+#accomodation a:hover {
+    color: #000;
+}
