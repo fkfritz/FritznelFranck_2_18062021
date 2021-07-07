@@ -210,3 +210,21 @@ input[type="checkbox"] {
     border: 3px solid #f2f2f2;
     font-weight: bold;
 }
+
+/* Style sur les icônes des filtres */
+
+.fas {
+    width: 20px;
+    text-align: center;
+    padding: 14px;
+    position: absolute;
+    border-radius: 100px;
+    background: #deebff;
+    color: #0065fc;
+    font-size: 1.2em;
+}
+
+.filter-option label:hover .fas{    
+    transition: all 0.5s ease;    
+    transform: rotate(360deg);
+}
