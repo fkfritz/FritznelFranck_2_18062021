@@ -30,3 +30,10 @@ figure {
 html {
   scroll-behavior: smooth;
 }
+
+/* Style sur la class container */
+
+.container {
+    margin: 0 50px 40px 50px;
+    overflow: hidden;
+}
