@@ -37,3 +37,12 @@ html {
     margin: 0 50px 40px 50px;
     overflow: hidden;
 }
+
+/* Style sur le header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
