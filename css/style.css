@@ -150,3 +150,63 @@ header {
 .fa-search {
     visibility: hidden;
 }
+
+/* Style sur les filtres */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.filter {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.filter-title h3 {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.filter-title,
+.filter-option {
+  margin: 5px 20px 5px 0;
+}
+
+.filter-option-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-option label{
+    height: 43px;
+    border: 3px solid #f2f2f2;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.filter-option label:hover {
+    color: #000;
+    background-color: #deebff;
+    transform: scale(1.08);
+}
+
+.filter-text {
+    font-weight: bold;
+    padding-left: 60px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.filter-option input[type="checkbox"]:checked + label {
+    background-color: #0065FC;
+    color: #fff;
+    border: 3px solid #f2f2f2;
+    font-weight: bold;
+}
