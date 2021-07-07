@@ -1,0 +1,32 @@
+/* Style sur l'ensemble de la page */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  margin: auto;
+  max-width: 1440px;
+  align-content: center;
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #0065fc;
+}
+
+figure {
+  margin: 0;
+}
+
+/* Scroll fluide */
+html {
+  scroll-behavior: smooth;
+}
