@@ -429,3 +429,16 @@ input[type="checkbox"] {
 .popular-card-info h4, .popular-card-info p {
   margin: 4px 0;
 }
+
+/* Style sur les icônes "fa-star" des blocs
+logements à marseille et les plus populaires*/
+
+.fa-star{
+  font-size: 0.8rem;
+  color: #0065FC;
+}
+
+.star-grey{
+  color: #f2f2f2;
+}
+
