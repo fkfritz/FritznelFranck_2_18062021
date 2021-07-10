@@ -39,6 +39,8 @@ html {
 
 .container {
   margin: 0 50px 40px 50px;
+  padding-right: 15px;
+  padding-left: 15px;
   overflow: hidden;
 }
 
