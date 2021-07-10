@@ -281,3 +281,65 @@ input[type="checkbox"] {
     padding-left: 30px;
 }
 
+.accomodation-marseille{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+ align-content: center;
+}
+
+.accomodation-card{
+  background-color: #fff;
+  box-shadow:  5px 5px 5px #a5a3a393;
+  margin: 10px;
+  padding: 5px;
+  width: 230px;
+  height: 180px;
+  border-radius: 15px;
+  overflow: hidden;  
+  transition: .3s ease-in-out; 
+}
+
+.accomodation-card:hover{
+  transform: scale(1.08);
+}
+
+.accomodation-card a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.accomodation-card a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.accomodation-card figcaption{
+  padding-left: 10px;
+}
+
+.accomodation-card figcaption h5 {
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.accomodation-card figcaption p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;  
+}
+
+.accomodation-card img {
+  height: 60%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
