@@ -315,11 +315,9 @@ input[type="checkbox"] {
   flex-direction: column;
 }
 
-.accomodation-card a {
-  width: 100%;
+.accomodation-card figure {
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
 .accomodation-card figcaption{
