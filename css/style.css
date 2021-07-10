@@ -487,3 +487,85 @@ logements à marseille et les plus populaires*/
   margin-top: 15px;
   margin-left: 20px;
 }
+
+/* Mise en place des images en background
+pour chaque vignette de la section activités */
+
+.img {
+  border-radius: 15px 15px 0 0;
+}
+
+.vieuxport {
+  margin-right: 10px;
+}
+
+.vieuxport .img {
+  background-image: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  width: 100%;
+  height: 88%;
+  background-size: cover;  
+  background-position: left 420px  top ;
+}
+
+.pomegues {
+  height: 215px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.pomegues .img {
+  background-image: url(/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  width: 100%;
+  height:75%;
+  background-size: cover;
+  background-position: bottom 270px center;
+}
+
+.frioul {
+  height: 170px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.frioul .img {
+  background-image: url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+  width: 100%;
+  height: 70%;
+  background-size: cover;  
+}
+
+.calanques {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.calanques .img {
+  background-image: url(/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+  width: 100%;
+  height: 88%;
+  background-size: cover; 
+  background-position: left 420px  top ; 
+}
+
+.garde {
+  height: 180px;  
+  margin-left: 10px;
+}
+
+.garde .img {
+  background-image: url(/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+  width: 100%;
+  height: 70%;
+  background-size: cover;
+}
+
+.longchamp {
+  height: 200px;
+  margin-left: 10px;
+}
+
+.longchamp .img {
+  background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  width: 100%;
+  height: 74%;
+  background-size: cover;
+}
