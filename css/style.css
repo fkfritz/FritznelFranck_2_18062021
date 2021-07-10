@@ -571,3 +571,26 @@ pour chaque vignette de la section activités */
   height: 74%;
   background-size: cover;
 }
+
+/* Style sur le footer */
+
+footer {
+  background-color: #f2f2f2; 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-element {
+  margin: 40px 150px 40px 50px;
+  padding-right: 20px;
+}
+
+.footer-element h4 {
+  margin-bottom: 20px;
+}
+
+.footer-element li {
+  margin-bottom: 10px;
+}
+
