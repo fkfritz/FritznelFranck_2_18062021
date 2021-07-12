@@ -265,6 +265,10 @@ input[type="checkbox"] {
     color: #000;
 }
 
+.currency, .price {
+  font-weight: bold;
+}
+
 /* Style sur accomodation-container et les titres h2 et h4 */
 
 .accomodation-container {
