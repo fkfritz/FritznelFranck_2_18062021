@@ -477,7 +477,7 @@ logements à marseille et les plus populaires*/
   box-shadow:  5px 5px 5px #f2f2f2bb;
   width: 23%;
   height: 430px;
-  border-radius: 15px;
+  border-radius: 20px;
   overflow: hidden;  
   transition: .3s ease-in-out;  
 }
@@ -501,7 +501,7 @@ logements à marseille et les plus populaires*/
 pour chaque vignette de la section activités */
 
 .img {
-  border-radius: 15px 15px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 .vieuxport {
