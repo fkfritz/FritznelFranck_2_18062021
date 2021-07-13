@@ -586,6 +586,7 @@ footer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .footer-element {
@@ -601,3 +602,292 @@ footer {
   margin-bottom: 10px;
 }
 
+/* Mise en place des medias queries */
+
+/* Breackpoint à 1325px */
+@media screen and ( max-width: 1325px) {
+
+  .container {
+    margin: 0 15px 40px 15px;
+    overflow: hidden;
+  }
+  
+  #accomodation {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+
+  .accomodation-container {
+     padding: 15px 0 15px 0;   
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+  }
+
+  .accomodation-marseille {
+    width: 100%;
+  }
+
+  .accomodation-card {
+    width: 30%;
+    height: 170px;
+     
+  }
+
+  .accomodation-marseille .accomodation-card img {
+    height: 55%;
+  }
+
+  .popular-container {    
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .popular {
+    display: flex;
+    flex-direction: row;    
+  }  
+
+  #activity {
+    align-items: center;
+  }
+
+  .activity-all {    
+    margin-top: 20px;    
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;      
+  }
+
+  .activity-card {    
+    width: 30%;
+    height: 190px;
+    margin: 10px;    
+  }
+
+  .activity-card .img {
+    width: 100%;
+    height: 70%;
+    background-position: center;
+  }  
+}
+
+/* Breackpoint à 1180px */
+@media screen and (max-width: 1180px) {
+
+  footer {
+    justify-content: space-between;
+  }
+
+  .footer-element {
+    width: 22%;
+    margin-right: 40px;
+  }  
+}
+
+/* Breackpoint à 1024px */
+@media screen and (max-width: 1024px) {
+  .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-option-block {
+    margin-top: 10px;
+  } 
+
+  .footer-element {
+    width: 230px;
+    margin-right: 0;
+    padding-right: 0;
+  } 
+}
+
+/* Breackpoint à 980px */
+@media screen and (max-width: 980px) {
+
+  .accomodation-card {
+    width: 47%;    
+  }
+
+  .popular {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .popular-card { 
+    width: 95%;
+    height: 150px;   
+  } 
+
+  .popular-card img {
+    width: 50%;
+  } 
+
+  .activity-card {    
+    width: 45%;
+    height: 190px;
+    margin: 10px;      
+  }
+}
+
+/* Breackpoint à 890px */
+@media screen and (max-width: 890px) {
+
+  .filter-option-block {
+    display: flex;
+    flex-wrap: wrap;
+  }  
+
+  .activity-card{    
+    width: 42%;
+    height: 200px;
+    margin: 15px;      
+  }
+  
+  footer {
+    flex-direction: column;
+    justify-content: stretch;
+  }
+
+  .footer-element {
+    width: 100%;
+  }
+
+  .footer-block1, .footer-block2 {
+    margin-bottom: 30px;
+  }
+
+  .footer-block2, .footer-block3 {
+    margin-top: 0;
+  }
+}
+
+/* Breackpoint à 768px */
+@media screen and (max-width: 768px) {
+
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .header {
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;   
+  }
+
+  .menu {
+    height: 50px;
+    order: 1;
+    width: 100%;     
+    justify-content: center;
+  } 
+
+  .menu ul {
+    width: 100%;
+    align-items: center;
+  }
+
+  .menu ul li {
+    width: 50%;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: none;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  .menu ul li:hover {
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+  }
+
+  .logo {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .inscription {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  #section-search {
+    padding: 20px;
+  }
+
+  .accomodation-container {
+    background-color: initial;
+  }  
+ 
+  .popular-card img {
+    width: 40%;
+  }  
+}
+
+/* Breackpoint à 650px */
+@media screen and (max-width: 650px) {
+
+  .accomodation-marseille {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accomodation-card {
+    width: 100%;
+    height: 190px;    
+  }
+
+  #activity {
+    padding: 0 10px;
+  }
+
+  .activity-card {    
+    width: 90%;          
+  }
+}
+
+/* Breackpoint à 430px */
+@media screen and (max-width: 430px) {
+
+  .container {
+    margin: 0;
+  } 
+  
+  .input {
+    width: 100%;
+  }
+
+  .input:focus {
+    border-color: #0065FC;
+    outline: #0065FC;
+  }
+
+  .btn {
+    width: 60px;
+    border-radius: 15px;  
+  }
+
+  .btn span {
+    display: none
+  }
+
+  .btn .fa-search {
+   visibility: visible;
+   font-weight: bold;     
+  }
+}
