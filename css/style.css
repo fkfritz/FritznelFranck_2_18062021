@@ -731,7 +731,8 @@ footer {
 
   .popular-card { 
     width: 99%;
-    height: 150px; 
+    height: 150px;
+    margin: 10px 0; 
     box-sizing: border-box;  
   } 
 
