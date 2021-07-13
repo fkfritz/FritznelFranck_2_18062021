@@ -898,4 +898,8 @@ footer {
     padding-right: 5px;
     padding-left: 55px;
   }
+
+  .popular-container {
+    border-radius: 0;
+  }
 }
