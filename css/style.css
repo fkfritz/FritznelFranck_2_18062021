@@ -724,6 +724,14 @@ footer {
     width: 47%;    
   }
 
+  .popular-container{
+    margin-top: 0;
+  }
+
+  .popular-title{
+    margin-bottom: 15px;
+  }
+
   .popular {
     display: flex;
     flex-direction: column;    
