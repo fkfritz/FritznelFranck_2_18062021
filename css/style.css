@@ -890,4 +890,9 @@ footer {
    visibility: visible;
    font-weight: bold;     
   }
+
+  .filter-text{
+    padding-right: 5px;
+    padding-left: 55px;
+  }
 }
