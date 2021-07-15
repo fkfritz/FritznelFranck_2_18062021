@@ -650,6 +650,10 @@ footer {
     overflow: hidden;
   }
 
+  .popular-title {
+    width: 300px;  
+  }
+
   .popular {
     width: 100%;
     padding: 0 30px;
